@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\BerandaController;
+use App\Http\Controllers\Frontend\BukuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,4 @@ use App\Http\Controllers\Frontend\BerandaController;
 //     return view('welcome');
 // });
 Route::get('/',[BerandaController::class,'index'] );
+Route::get('/buku', [BukuController::class, 'index']);
