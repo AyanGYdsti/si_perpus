@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\AuthController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\BerandaController;
 use App\Http\Controllers\Frontend\BukuController;
@@ -21,3 +22,5 @@ use App\Http\Controllers\Frontend\BukuController;
 Route::get('/',[BerandaController::class,'index'] );
 Route::get('/buku', [BukuController::class, 'index']);
 Route::get('/buku/search', [Bukucontroller::class,'search']);
+Route::get('/login', [AuthController::class, 'index']);
+Route::get('/logout', [AuthController::class, 'logout']);
