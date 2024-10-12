@@ -47,35 +47,13 @@
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
-
-            <!-- Nav Item - Data Buku -->
-            <li class="nav-item active">
-                <a class="nav-link" href="/data-buku">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Data Buku</span></a>
-            </li>
-
+    
             <!-- Nav Item - Data Anggota -->
             <li class="nav-item active">
                 <a class="nav-link" href="/data-anggota">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Data Anggota</span></a>
             </li>
-
-            <!-- Nav Item - Data Peminjaman -->
-            <li class="nav-item active">
-                <a class="nav-link" href="/data-peminjaman">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Data Peminjaman</span></a>
-            </li>
-
-            <!-- Nav Item - Data Pengembalian -->
-            <li class="nav-item active">
-                <a class="nav-link" href="/data-pengembalian">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Data Pengembalian</span></a>
-            </li>
-
         </ul>
         <!-- End of Sidebar -->
 

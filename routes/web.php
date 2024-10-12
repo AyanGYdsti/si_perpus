@@ -4,6 +4,8 @@ use App\Http\Controllers\Auth\AuthController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\BerandaController;
 use App\Http\Controllers\Frontend\BukuController;
+use App\Http\Controllers\Backend\DashboardController;
+use App\Http\Controllers\Backend\AnggotaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +27,9 @@ Route::get('/buku/search', [Bukucontroller::class,'search']);
 Route::get('/login', [AuthController::class, 'index']);
 Route::get('/logout', [AuthController::class, 'logout']);
 Route::post('/auth/login', [AuthController::class, 'authLogin']);
+Route::get('/dashboard', [DashboardController::class, 'index']);
+// Data Anggota
+Route::get('/data-anggota', [AnggotaController::class, 'index']);
+Route::post('/data-anggota/store', [AnggotaController::class, 'store']);
+Route::get('/data-anggota/delete/{id}', [AnggotaController::class, 'delete']);
+Route::put('/data-anggota/update/{id}', [AnggotaController::class, 'update']);
