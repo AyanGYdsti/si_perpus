@@ -20,3 +20,4 @@ use App\Http\Controllers\Frontend\BukuController;
 // });
 Route::get('/',[BerandaController::class,'index'] );
 Route::get('/buku', [BukuController::class, 'index']);
+Route::get('/buku/search', [Bukucontroller::class,'search']);
