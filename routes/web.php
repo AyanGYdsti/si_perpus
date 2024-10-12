@@ -7,6 +7,7 @@ use App\Http\Controllers\Frontend\BukuController;
 use App\Http\Controllers\Backend\DashboardController;
 use App\Http\Controllers\Backend\AnggotaController;
 use App\Http\Controllers\Backend\BukuBackendController;
+use App\Http\Controllers\Backend\PeminjamanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,3 +40,8 @@ Route::get('/data-buku', [BukuBackendController::class, 'index']);
 Route::post('/data-buku/store', [BukuBackendController::class, 'store']);
 Route::get('/data-buku/delete/{id}', [BukuBackendController::class, 'delete']);
 Route::put('/data-buku/update/{id}', [BukuBackendController::class, 'update']);
+// Data Peminjaman
+Route::get('/data-peminjaman', [PeminjamanController::class, 'index']);
+Route::post('/data-peminjaman/store', [PeminjamanController::class, 'store']);
+Route::get('/data-peminjaman/delete/{id}', [PeminjamanController::class, 'delete']);
+Route::put('/data-peminjaman/update/{id}', [PeminjamanController::class, 'update']);
