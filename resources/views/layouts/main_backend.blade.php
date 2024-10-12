@@ -54,6 +54,13 @@
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Data Anggota</span></a>
             </li>
+
+            <!-- Nav Item - Data Buku -->
+            <li class="nav-item active">
+                <a class="nav-link" href="/data-buku">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Data Buku</span></a>
+            </li>
         </ul>
         <!-- End of Sidebar -->
 

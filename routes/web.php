@@ -6,6 +6,7 @@ use App\Http\Controllers\Frontend\BerandaController;
 use App\Http\Controllers\Frontend\BukuController;
 use App\Http\Controllers\Backend\DashboardController;
 use App\Http\Controllers\Backend\AnggotaController;
+use App\Http\Controllers\Backend\BukuBackendController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,8 @@ Route::get('/data-anggota', [AnggotaController::class, 'index']);
 Route::post('/data-anggota/store', [AnggotaController::class, 'store']);
 Route::get('/data-anggota/delete/{id}', [AnggotaController::class, 'delete']);
 Route::put('/data-anggota/update/{id}', [AnggotaController::class, 'update']);
+// Data Buku 
+Route::get('/data-buku', [BukuBackendController::class, 'index']);
+Route::post('/data-buku/store', [BukuBackendController::class, 'store']);
+Route::get('/data-buku/delete/{id}', [BukuBackendController::class, 'delete']);
+Route::put('/data-buku/update/{id}', [BukuBackendController::class, 'update']);
