@@ -66,7 +66,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="/data-peminjaman">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Data Peminjam</span></a>
+                    <span>Data Peminjaman</span></a>
             </li>
 
             <!-- Nav Item - Data Pengembalian -->

@@ -29,6 +29,9 @@ class PengembalianController extends Controller
         ]);
 
         $peminjaman = Peminjaman::find($request->id_peminjaman);
+        $peminjaman->update([
+            'status_peminjaman' => 'Dikembalikan'
+        ]);
 
         Pengembalian::create($dataReq);
 

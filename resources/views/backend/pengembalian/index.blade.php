@@ -13,7 +13,6 @@
                     <th>No</th>
                     <th>Peminjaman</th>
                     <th>Tanggal Dikembalikan</th>
-                    <th>Denda</th>
                     <th>Action</th>
                 </thead>
                 <tbody>
@@ -23,7 +22,6 @@
                                 <td class=align-middle>{{ $loop->iteration }}</td>
                                 <td class=align-middle>{{ $value->peminjaman->anggota->nama }}</td>
                                 <td class=align-middle>{{ $value->tanggal_dikembalikan }}</td>
-                                <td class=align-middle>{{ $value->denda }}</td>
                                 <td class=align-middle>
                                     <div class="d-flex justify-content-center">
                                         <a href="/data-pengembalian/delete/{{ $value->id }}"
