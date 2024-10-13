@@ -8,6 +8,7 @@ use App\Http\Controllers\Backend\DashboardController;
 use App\Http\Controllers\Backend\AnggotaController;
 use App\Http\Controllers\Backend\BukuBackendController;
 use App\Http\Controllers\Backend\PeminjamanController;
+use App\Http\Controllers\Backend\PengembalianController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,3 +46,8 @@ Route::get('/data-peminjaman', [PeminjamanController::class, 'index']);
 Route::post('/data-peminjaman/store', [PeminjamanController::class, 'store']);
 Route::get('/data-peminjaman/delete/{id}', [PeminjamanController::class, 'delete']);
 Route::put('/data-peminjaman/update/{id}', [PeminjamanController::class, 'update']);
+// Data Pengembalian
+Route::get('/data-pengembalian', [PengembalianController::class, 'index']);
+Route::post('/data-pengembalian/store', [PengembalianController::class, 'store']);
+Route::get('/data-pengembalian/delete/{id}', [PengembalianController::class, 'delete']);
+Route::put('/data-pengembalian/update/{id}', [PengembalianController::class, 'update']);

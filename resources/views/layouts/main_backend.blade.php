@@ -68,6 +68,13 @@
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Data Peminjam</span></a>
             </li>
+
+            <!-- Nav Item - Data Pengembalian -->
+            <li class="nav-item active">
+                <a class="nav-link" href="/data-pengembalian">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Data Pengembalian</span></a>
+            </li>
         </ul>
         <!-- End of Sidebar -->
 
