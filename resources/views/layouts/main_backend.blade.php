@@ -28,7 +28,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav  sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:#0053A0">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
@@ -112,7 +112,7 @@
                                         <div class="input-group-append">
                                             <button class="btn btn-primary" type="button">
                                                 <i class="fas fa-search fa-sm"></i>
-                                            </button>
+                                            </button>          
                                         </div>
                                     </div>
                                 </form>
