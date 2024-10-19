@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#004ecc">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#0053A0">
         <div class="container-fluid">
             <a class="navbar-brand text-white" href="#">SI-PERPUS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,7 +38,7 @@
         </div>
     </nav>
     @yield('content')
-    <footer style="background-color:#004ecc">
+    <footer style="background-color:#0053A0">
         <div class="row p-5 text-white">
             <div class="col-4">
                 <h1>Tentang Kami</h1>

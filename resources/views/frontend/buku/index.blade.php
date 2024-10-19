@@ -29,6 +29,10 @@
                                 <td>:</td>
                                 <td>{{ $value->isbn }}</td>
                             </tr>
+                                <td style="font-weight: bold">JUMLAH BUKU</td>
+                                <td>:</td>
+                                <td>{{ $value->jml_buku }}</td>
+                            </tr>
                         </table>
                     </div>
                 </div>

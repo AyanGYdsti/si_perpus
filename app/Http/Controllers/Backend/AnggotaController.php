@@ -10,7 +10,7 @@ class AnggotaController extends Controller
 {
     public function index()
     {
-        $title = "Kartu Anggota";
+        $title = "Data Anggota";
 
         $anggota = Anggota::get();
 
